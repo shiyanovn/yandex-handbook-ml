@@ -29,15 +29,13 @@ $f_x(x_i) = \langle w, x_i \rangle$
 Функция, которая позволяет узнать насколько часто модель ошибается, называется функцией потерь, функционалом качества или лоссом.
 
 
-$$
-L^p = \|y - Xw\|_p = \left( \sum_{i=1}^N (y_i - \langle w, x_i \rangle)^p \right)^{\frac{1}{p}}
-$$
+![L^p formula](https://latex.codecogs.com/png.image?\dpi{150} L^p%20=%20%5C%7Cy%20-%20Xw%5C%7C_p%20=%20%5Cleft(%20%5Csum_%7Bi%3D1%7D%5EN%20(y_i%20-%20%5Clangle%20w%2C%20x_i%20%5Crangle)%5Ep%20%5Cright)%5E%7B%5Cfrac%7B1%7D%7Bp%7D%7D)
+
 
 **$L^2$ — норма разницы (евклидово расстояние) между вектором таргетов и вектором ответов:**
 
-$$
-L(f, X, y) = \|y - f_w(x)\|_2^2 = \|y - Xw\|_2^2 = \sum_{i=1}^N (y_i - \langle w, x_i \rangle)^2
-$$
+![L2 formula](https://latex.codecogs.com/png.image?\dpi{150} L(f%2C%20X%2C%20y)%20=%20%5C%7Cy%20-%20f_w(x)%5C%7C_2%5E2%20=%20%5C%7Cy%20-%20Xw%5C%7C_2%5E2%20=%20%5Csum_%7Bi%3D1%7D%5EN%20(y_i%20-%20%5Clangle%20w%2C%20x_i%20%5Crangle)%5E2)
+
 
 ### Mean Squared Error (MSE) или среднеквадратичная ошибка
 
